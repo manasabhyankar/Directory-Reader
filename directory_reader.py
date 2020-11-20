@@ -9,7 +9,7 @@ def file_helper(directory_path, space_length):
         elif(x.is_dir()):
             print(' ' * space_length + '+ ' + str(x))
             if(os.listdir(x)):
-                print(' ' * space_length + '|__')
+                print(' ' * space_length + '|__v')
                 file_helper(x, space_length + 4)
 
 
